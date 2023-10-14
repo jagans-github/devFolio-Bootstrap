@@ -1,0 +1,296 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(205, 221, 235);
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    background-color: black;
+    opacity: .7;
+    color: white;
+    z-index: 1;
+    width: 100%;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.navbar-toggler{
+    color: white;
+    font-size: 30px;
+}
+
+.nav{
+margin-left: auto;
+}
+.nav-link{
+    color: white;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+.dropdown-item{
+    color: white;
+}
+
+.hero{
+    background-image: url('/images/hero-bg.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+}
+
+.hero-tags{
+    margin-top:250px ;
+    text-align: center;
+    color: white;
+}
+.name{
+    font-size: 70px;
+    font-weight: bolder;
+}
+.designation{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.about-section{
+    
+    margin-top: 700px;
+}
+.about{
+    padding: 40px;
+    background-color: white;
+}
+.left{
+    margin-right: 30px;
+}
+
+
+.img-col img{
+border-radius: 5px;
+}
+.bio span{
+    font-weight: bolder;
+}
+.bio-items{
+    list-style-type: none;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.about-p{
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 35px;
+}
+
+.progress{
+    margin-bottom: 40px;
+}
+
+.tags h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.service-box{
+    background-color: white;
+    margin-bottom: 20px;
+    
+   
+
+}
+.circle{
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    background-color: rgb(15, 15, 246);
+    margin-top: 30px!important;
+}
+.circle span{
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    top: 10px;
+}
+.circle span i{
+    font-size: 30px;
+   position: relative;
+   top: 35px;
+   left: 35px;
+   
+}
+.service-box:hover .circle{
+    background-color: skyblue;
+}
+.service-box:hover .circle span{
+    background-color: rgb(15, 15, 246);
+}
+.service-box:hover .circle span i{
+    color: white;
+}
+
+.achievement-section{
+    background-image: url('/images/counters-bg.jpg');
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+.achievement-bg{
+    background-color: rgb(18, 109, 236);
+    height: 100%;
+    opacity: .6;
+    
+}
+.a-circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.a-circle span{
+    background: transparent;
+    display: block;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: auto;
+    position: relative;
+    top: 10px;
+}
+.a-circle span i{
+    font-size: 30px;
+    color: white;
+    margin-top: 25px;
+}
+
+.achievement{
+    
+    position: absolute;
+    top: 200px;
+    margin: auto;
+    
+    
+}
+.achieve-col{
+    
+    text-align: center;
+    color: white;
+    z-index:1;
+}
+.achieve-col p{
+    margin-top: 20px;
+}
+.port-row{
+    row-gap: 20px;
+}
+.card-body a{
+    font-size: 30px;
+    margin-left: 100px;
+}
+.card{
+    overflow: hidden;
+    overflow-y: hidden;
+}
+.port-row .card:hover img{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 1s ;
+    
+}
+.carousal-section{
+    background-image: url('/images/overlay-bg.jpg');
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    position: relative;
+}
+.carousal-bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(24, 24, 243);
+    opacity: .7;
+}
+.carousal-tag{
+    position: absolute;
+top: 200px;
+text-align: center;
+
+color: white;
+margin: auto;
+margin-left: 100px;
+margin-right: 100px;
+}
+.carousal-tag img{
+height: 150px;
+width: 150px;
+border-radius: 50%;
+display: inline-block;
+
+}
+.carousal-tag p{
+    font-size: 20px;
+}
+
+.card-footer img{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.card-footer small{
+    margin-left: 50px;
+}
+.card-footer small i{
+    font-size: 20px;
+}
+
+
+
+
+
+
+@media screen and (max-width:750px) {
+
+    .name{
+        font-size:50px;
+    }
+    .designation{
+        font-size: 30px;
+    }
+    .profile{
+        margin-top: 40px;
+        margin-left: 0;
+    }
+    .achievement-section{
+        height: 1200px;
+    }
+    .blog col{
+        margin-bottom: 20px!important;
+    }
+    
+}
+
+
+
